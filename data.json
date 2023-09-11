@@ -1,6 +1,6 @@
 [
   {
-    "file": "experiments/thing",
+    "file": "experiments/thing.js",
     "name": "Friendship Bracelets",
     "description": "I'm randomly generating friendship bracelets using a grid and randomisation of colours.",
     "background": "During Taylor Swift's tour, a lot of fans are making bracelets out of colored beads and text-beads and handing them to each other. This is my version of that",
