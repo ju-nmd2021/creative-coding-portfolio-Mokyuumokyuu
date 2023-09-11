@@ -1,9 +1,9 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview.",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
-    "github": "https://www.github.com/pixelkind"
+    "file": "experiments/thing",
+    "name": "Friendship Bracelets",
+    "description": "I'm randomly generating friendship bracelets using a grid and randomisation of colours.",
+    "background": "During Taylor Swift's tour, a lot of fans are making bracelets out of colored beads and text-beads and handing them to each other. This is my version of that",
+    "github": "https://github.com/ju-nmd2021/creative-coding-portfolio-Mokyuumokyuu"
   }
 ]
