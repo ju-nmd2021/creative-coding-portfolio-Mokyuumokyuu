@@ -21,18 +21,19 @@ class waterParticles {
 class particle {
   constructor() {
     this.x = random(0, width);
-    this.y = 0;
+    this.y = height;
     this.speed = 0;
-    this.gravity = 0.2;
-    this.lifespan = 100;
+    this.gravity = 0.5;
+    this.lifespan = 50;
 
-    this.color = [random(0, 40), random(0, 300), 255];
+    this.color = [random(0, 40), random(150, 255), random(0, 100)];
     this.size = random(12, 3);
   }
   update() {
     this.speed += this.gravity;
     this.y += this.speed;
     this.lifespan--;
+    this.size += this.y / 30;
   }
   isDead() {
     return this.lifespan <= 0;
